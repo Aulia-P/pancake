@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Formulir Pendaftaran Mahasiswa Baru</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <form action="#" method="post" class="form">
+            <h1 class="text-center">Formulir Pendaftaran Mahasiswa Baru</h1>
+
+            <!-- first section -->
+            <div class="row border-top border-primary">
+                <div class="col">
+                    <h2 class="text-center">Data Diri</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="form-group">
+                        <label for="full_name"><b>Nama Lengkap:</b></label>
+                        <div class="input-group input-group-sm">
+                            <input type="text" class="form-control" name="full_name" id="full_name" maxlength="60" />
+                            (maks. 60 karakter)
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="birthday_day"><b>Tanggal Lahir:</b></label>
+                        <div class="row input-group input-group-sm">
+                            <div class="col col-sm-3">
+                                <select class="form-control" name="birthday_day">
+                                    <option value="1" selected>1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                    <option value="13">13</option>
+                                    <option value="14">14</option>
+                                    <option value="15">15</option>
+                                    <option value="16">16</option>
+                                    <option value="17">17</option>
+                                    <option value="18">18</option>
+                                    <option value="19">19</option>
+                                    <option value="20">20</option>
+                                    <option value="21">21</option>
+                                    <option value="22">22</option>
+                                    <option value="23">23</option>
+                                    <option value="24">24</option>
+                                    <option value="25">25</option>
+                                    <option value="26">26</option>
+                                    <option value="27">27</option>
+                                    <option value="28">28</option>
+                                    <option value="29">29</option>
+                                    <option value="30">30</option>
+                                    <option value="31">31</option>
+                                </select>
+                            </div>
+                            <div class="col col-sm-5">
+                                <select class="form-control" name="birthday_month">
+                                    <option value="1" selected>Januari</option>
+                                    <option value="2">Februari</option>
+                                    <option value="3">Maret</option>
+                                    <option value="4">April</option>
+                                    <option value="5">Mei</option>
+                                    <option value="6">Juni</option>
+                                    <option value="7">Juli</option>
+                                    <option value="8">Agustus</option>
+                                    <option value="9">September</option>
+                                    <option value="10">Oktober</option>
+                                    <option value="11">November</option>
+                                    <option value="12">Desember</option>
+                                </select>
+                            </div>
+                            <div class="col col-sm-4">
+                                <select class="form-control" name="birthday_year">
+                                    <option value="2003">2003</option>
+                                    <option value="2002">2002</option>
+                                    <option value="2001">2001</option>
+                                    <option value="2000" selected>2000</option>
+                                    <option value="1999">1999</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email"><b>Email:</b></label>
+                        <div class="input-group input-group-sm">
+                            <input type="password" class="form-control" name="email" id="email" maxlength="60" />
+                            (maks. 60 karakter)
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <label for="phone"><b>No. Telepon:</b></label>
+                        <div class="input-group input-group-sm">
+                            <input type="text" class="form-control" name="phone" id="phone" maxlength="10" />
+                        </div>
+                    </div>
+
+                    <label><b>Jenis Kelamin:</b></label><br>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="gender" id="gender_male" value="male">
+                        <label class="form-check-label" for="gender_male">Male</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="gender" id="gender_female" value="female">
+                        <label class="form-check-label" for="gender_female">Female</label>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="address"><b>Alamat:</b></label>
+                        <textarea class="form-control" name="address" id="address" rows="3"></textarea>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="city_regency"><b>Kota/Kabupaten:</b></label>
+                                <div class="input-group input-group-sm">
+                                    <input type="text" class="form-control" name="city_regency" id="city_regency"
+                                        maxlength="30" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+
+                                <div class="form-group">
+                                    <label for="province"><b>Provinsi:</b></label>
+                                    <div class="input-group input-group-sm">
+                                        <input type="text" class="form-control" name="province" id="province"
+                                            maxlength="30" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- first section -->
+            <div class="row border-top border-primary">
+                <div class="col">
+                    <h2 class="text-center">Kualifikasi</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <table class="table table-borderless table-sm">
+                        <thead>
+                            <tr>
+                                <td align="center"><b>Jenjang</b></td>
+                                <td align="center"><b>Tahun lulus</b></td>
+                                <td align="center"><b>Asal sekolah</b></td>
+                                <td align="center"><b>Kota/Kabupaten asal sekolah</b></td>
+                                <td align="center"><b>Provinsi asal sekolah</b></td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Sekolah Dasar</td>
+                                <td><input type="text" class="form-control" name="elementary_year" size="4" /></td>
+                                <td><input type="text" class="form-control" name="elementary_school_name" /></td>
+                                <td><input type="text" class="form-control" name="elementary_school_city" /></td>
+                                <td><input type="text" class="form-control" name="elementary_school_province" /></td>
+                            </tr>
+
+                            <tr>
+                                <td>Sekolah Menengah Pertama</td>
+                                <td><input type="text" class="form-control" name="middle_year" size="4" /></td>
+                                <td><input type="text" class="form-control" name="middle_school_name" /></td>
+                                <td><input type="text" class="form-control" name="middle_school_city" /></td>
+                                <td><input type="text" class="form-control" name="middle_school_province" /></td>
+                            </tr>
+
+                            <tr>
+                                <td>Sekolah Menengah Atas</td>
+                                <td><input type="text" class="form-control" name="high_year" size="4" /></td>
+                                <td><input type="text" class="form-control" name="high_school_name" /></td>
+                                <td><input type="text" class="form-control" name="high_school_city" /></td>
+                                <td><input type="text" class="form-control" name="high_school_province" /></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="text-center">
+                        <input type="submit" class="btn btn-success" name="command" value="Kirim Formulir" />
+                        &nbsp;
+                        <input type="submit" class="btn btn-secondary" name="command" value="Reset" />
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
